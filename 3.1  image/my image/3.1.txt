@@ -1,0 +1,9 @@
+I = imread('girl.jpg');
+J = rgb2gray(I);     %把图像转换为黑白图像
+f1 = fft2(J);        %傅立叶变换
+im2 = abs(f1);
+f2 = fftshift(f1);   %中心化
+im1 = abs(f2);
+subplot(1,3,1);imshow(J);
+subplot(1,3,2);imshow(log(im2+1),[0 10]);
+subplot(1,3,3);imshow(log(im1+1),[0 10]);

@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: p1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dell\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/p1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\D—HTC\数据结构\15_12_07\p1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dell\LOCALS~1\Temp\RSP8.tmp" 
+<h3>Output Window</h3>
+Compiling...
+p1.cpp
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2143: syntax error : missing ';' before 'constant'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xb2'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xd5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xd2'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xcb'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xe3'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xb7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xa8'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xcf'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xd6'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(1) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xb1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xbe'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xce'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xaa'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd6'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xa4'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xba'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xcd'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xb2'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xf7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xa3'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xac'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd0'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xe8'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd2'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xaa'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xa7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xb1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xa1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(2) : error C2018: unknown character '0xa3'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xc4'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xbf'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(3) : error C2018: unknown character '0xc4'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xa3'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xa9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xa7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xc9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xfa'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd4'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xda'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xca'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xcf'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb0'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd6'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd0'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xcc'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xe5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xbb'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xe1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb8'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xf7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd6'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd6'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb2'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xe9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xd2'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xcb'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xe3'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb7'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xa8'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb5'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xc4'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xbb'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xf9'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xb1'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xbe'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xcb'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : error C2018: unknown character '0xbc'
+e:\d—htc\数据结构\15_12_07\p1.cpp(4) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+p1.obj - 102 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

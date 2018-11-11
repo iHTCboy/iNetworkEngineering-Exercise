@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SimpleWebBrowser()
+comment0.text=\r\n\u6784\u9020\u51FD\u6570\r\n\u521D\u59CB\u5316\u56FE\u5F62\u7528\u6237\u754C\u9762\r\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\u5B9E\u73B0\u76D1\u542C\u5668\u63A5\u53E3\u7684actionPerformed\u51FD\u6570\uFF0C\u5F53\u7126\u70B9\u5728urlField\u65F6\u6309\u4E0B\u56DE\u8F66\u952E\u540E\uFF0C\u8C03\u7528\u6B64\u65B9\u6CD5\r\n
+comment2.params=e
+comment2.target=void\ hyperlinkUpdate(javax.swing.event.HyperlinkEvent)
+comment2.text=\r\n\u5B9E\u73B0\u76D1\u542C\u5668\u63A5\u53E3\u7684hyperlinkUpdate\u51FD\u6570,\u5F53\u7528\u6237\u70B9\u51FB\u7F51\u9875\u4E0A\u7684\u94FE\u63A5\u65F6\uFF0C\u8C03\u7528\u4E9B\u65B9\u6CD5\r\n
+numComments=3

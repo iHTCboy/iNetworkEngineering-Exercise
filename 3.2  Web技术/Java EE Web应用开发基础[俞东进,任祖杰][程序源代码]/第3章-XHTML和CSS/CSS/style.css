@@ -1,0 +1,9 @@
+ p.big {font-size: 18pt;
+         font-style: italic;
+         font-family: '宋体';
+       }
+  p.small {font: 14pt bold '楷体';} 
+  h2 {font-family: '隶书'; 
+      font-size: 24pt; font-weight: bold}
+  h3 {font-family: '华文彩云'; 
+      font-size: 18pt}

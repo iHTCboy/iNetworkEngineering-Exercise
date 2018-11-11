@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GuessData()
+comment0.text=\r\n\ Constructor\r\n
+comment1.params=guessData
+comment1.target=void\ setGuessData(int[])
+comment1.text=\r\n\ \r\n\ @param\ \ guessData\ \ \ an\ array\ for\ user\ guessed\ data\r\n
+comment2.params=
+comment2.target=void\ generateRandomData()
+comment2.text=\r\n\ generate\ four\ different\ integers\r\n
+comment3.params=data\ index
+comment3.target=boolean\ isExist(int,\ int)
+comment3.text=\r\n\ judge\ the\ given\ data\ has\ been\ generated.\r\n\ @param\ \ data\ \ \ a\ data\ need\ to\ be\ judged.\ \r\n\ @param\ \ index\ \ the\ number\ of\ having\ been\ generated\ valid.\r\n\ @return\ \ \ guessData\ \ return\ true\ if\ data\ has\ been\ generated,\ or,\ return\ false;\r\n
+comment4.params=position
+comment4.target=int\ compare_1(int[])
+comment4.text=\r\n\ compare\ initialData\ with\ guessData\ in\ the\ first\ step\r\n\ @param\ position\ record\ the\ position\ of\ the\ values\ which\ have\ appeared\ in\ guessData\r\n\ @return\ the\ number\ of\ same\ value\r\n
+comment5.params=position\ count
+comment5.target=int\ compare_2(int[],\ int)
+comment5.text=\r\n\ compare\ initialData\ with\ guessData\ in\ the\ second\ step\r\n\ @param\ position\ the\ position\ of\ the\ values\ which\ have\ appeared\ in\ guessData\r\n\ @param\ count\ the\ number\ of\ same\ value\r\n\ @return\ the\ number\ of\ same\ value\ and\ same\ position\r\n
+comment6.params=
+comment6.target=java.lang.String\ compare()
+comment6.text=\r\n\ judge\ the\ number\ of\ same\ value\ and\ the\ number\ of\ both\ same\ value\ and\ same\ position\r\n\ @return\ a\ string\ like\ "3A2B"\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

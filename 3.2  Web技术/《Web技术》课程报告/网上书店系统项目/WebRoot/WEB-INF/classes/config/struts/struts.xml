@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<!-- 整个项目开发公共信息 -->
+	<!-- 定义常量 -->
+	<!-- 不使用struts2提供标签模板 -->
+	<constant name="struts.ui.theme" value="simple" />
+	<!-- 设置统一字符集默认：UTF-8 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!--  设置开发模式 默认：false
+	      开发模式：true
+	      生产模式：false
+	 -->
+	<constant name="struts.devMode" value="true" />
+	<!--
+		加载配置文件struts.xml 默认 false 开发模式：true 每次请求都会自动加载struts.xml文件 生产模式：false
+		只加载一次
+	-->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<!--
+		浏览器缓存:默认 true 开发模式：false 不使用浏览器缓存 生产模式：true 使用浏览器缓存
+	-->
+	<constant name="struts.serve.static.browserCache" value="false" />
+
+	<package name="dang-default" extends="json-default">
+		<!-- 公用拦截器 -->
+		<interceptors>
+		<interceptor name="loginaction"
+			class="com.tarena.web.interceptor.LoginInterceptor" />
+		<interceptor-stack name="loginactionStack">
+			<interceptor-ref name="loginaction" />
+			<interceptor-ref name="defaultStack" />
+		</interceptor-stack>
+		</interceptors>
+		
+		<default-action-ref name="mainAction" />
+		<global-results>
+			<!-- 公用results -->
+			<result name="error">
+				/common/error.jsp
+			</result>
+			<result name="login">
+				/WEB-INF/jsp/user/login_form.jsp
+			</result>
+		</global-results>
+		<!-- 公用action -->
+		<action name="mainAction" class="com.tarena.web.action.main.MainAction">
+			<result name="main">
+				/WEB-INF/jsp/main/main.jsp
+			</result>
+		</action>
+	</package>
+	<include file="config/struts/struts-main.xml" />
+	<include file="config/struts/struts-cart.xml" />
+	<include file="config/struts/struts-order.xml" />
+	<include file="config/struts/struts-user.xml" />
+</struts>

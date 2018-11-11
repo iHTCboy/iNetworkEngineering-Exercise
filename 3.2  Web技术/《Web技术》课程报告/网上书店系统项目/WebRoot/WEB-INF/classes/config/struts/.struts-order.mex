@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="order-default" location="50,50" size="170,271">
+    <action name="orderListAction" location="10,20" size="150,62">
+      <result name="order_info">
+        <resourceEdge source="order_info" routing="0" target="order_info.jsp" />
+      </result>
+      <result name="cart_list" />
+    </action>
+    <action name="addressFormAction" location="10,120" size="150,41">
+      <result name="address_form" />
+    </action>
+    <action name="successAction" location="10,220" size="150,41">
+      <result name="order_ok" />
+    </action>
+  </package>
+  <webResource name="order_info.jsp" path="/WEB-INF/jsp/order/order_info.jsp" location="350,50" size="150,55" />
+  <webResource name="cart_list.jsp" path="/WEB-INF/jsp/cart/cart_list.jsp" location="50,200" size="150,55" />
+  <webResource name="address_form.jsp" path="/WEB-INF/jsp/order/address_form.jsp" location="350,200" size="150,55" />
+  <webResource name="order_ok.jsp" path="/WEB-INF/jsp/order/order_ok.jsp" location="50,350" size="150,55" />
+</Struts2Diagram>
+

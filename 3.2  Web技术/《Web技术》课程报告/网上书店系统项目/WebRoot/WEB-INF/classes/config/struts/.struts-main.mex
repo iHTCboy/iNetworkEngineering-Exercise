@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="main-default" location="0,0" size="0,0">
+    <action name="recommendAction" location="0,0" size="0,0">
+      <result name="recommend">
+        <resourceEdge source="recommend" routing="0" target="recommend.jsp" />
+      </result>
+    </action>
+    <action name="categoryAction" location="0,0" size="0,0">
+      <result name="category">
+        <resourceEdge source="category" routing="0" target="category.jsp" />
+      </result>
+    </action>
+    <action name="bookListAction" location="0,0" size="0,0">
+      <result name="book_list">
+        <resourceEdge source="book_list" routing="0" target="book_list.jsp" />
+      </result>
+    </action>
+    <action name="hotAction" location="0,0" size="0,0">
+      <result name="hot">
+        <resourceEdge source="hot" routing="0" target="hot.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="recommend.jsp" path="/WEB-INF/jsp/main/recommend.jsp" location="0,0" size="0,0" />
+  <webResource name="category.jsp" path="/WEB-INF/jsp/main/category.jsp" location="0,0" size="0,0" />
+  <webResource name="book_list.jsp" path="/WEB-INF/jsp/main/book_list.jsp" location="0,0" size="0,0" />
+  <webResource name="hot.jsp" path="/WEB-INF/jsp/main/hot.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

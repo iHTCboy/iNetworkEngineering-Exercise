@@ -1,0 +1,7 @@
+<!-- Ä¬ÈÏaction -->
+<package name="defaultAction" namespace="/default" extends="struts-default">
+<default-action-ref name="error"></default-action-ref>
+<action name="error" class="edu.hdu.javaee.struts.DefaultAction">
+	<result name="success">/defaultAction.jsp</result>
+</action>
+</package>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="user-default" extends="dang-default" namespace="/user">
+		<!-- 跳转到注册页面 -->
+		<action name="doRegistAction" class="com.tarena.web.action.user.DoRegistAction">
+			<result name="register_form">
+				/WEB-INF/jsp/user/register_form.jsp
+			</result>
+		</action>
+		<!-- 注册用户 -->
+		<action name="toRegistAction" class="com.tarena.web.action.user.ToRegistAction">
+			<result name="register_ok">
+				/WEB-INF/jsp/user/register_ok.jsp
+			</result>
+			<result name="register_form">
+				/WEB-INF/jsp/user/register_form.jsp
+			</result>
+		</action>
+		<action name="loginAction" class="com.tarena.web.action.user.LoginAction">
+			<result name="login_form">
+				/WEB-INF/jsp/user/login_form.jsp
+			</result>
+		</action>
+		<action name="adminLogin" class="com.tarena.web.action.user.LoginAdminAction">
+			<result name="adminLogin">
+				/WEB-INF/jsp/user/adminLogin.jsp
+			</result>
+		</action>
+	    
+		<action name="toLoginAction" class="com.tarena.web.action.user.ToLoginAction">
+			<result name="login_form">
+				/WEB-INF/jsp/user/login_form.jsp
+			</result>
+			<result name="main">
+				/WEB-INF/jsp/main/main.jsp
+			</result>
+		</action>
+		<action name="toAdminAction" class="com.tarena.web.action.user.ToAdminAction">
+			<result name="adminLogin">
+				/WEB-INF/jsp/user/adminLogin.jsp
+			</result>
+			<result name="adminMain">
+				/WEB-INF/jsp/main/adminMain.jsp
+			</result>
+			</action>
+	<action name="toAdminMainAction" class="com.tarena.web.action.user.ToAdminMainAction">
+			<result name="toadminMain">
+				/WEB-INF/jsp/main/adminMain.jsp
+			</result>
+			</action>
+		<action name="logoutAction" class="com.tarena.web.action.user.LogoutAction">
+			<result name="main">
+				/WEB-INF/jsp/main/main.jsp
+			</result>
+		</action>
+		<action name="validateCodeAction" class="com.tarena.web.action.user.ValidateCodeAction">
+			<result name="show_image" type="stream">
+				<param name="inputName">is</param>
+				<param name="contextType">jpg/jpeg/png</param>
+			</result>
+		</action>
+		<action name="checkEmailAction" class="com.tarena.web.action.user.CheckEmailAction">
+			<result name="success" type="json">	
+
+			</result>
+		</action>
+	</package> 
+</struts>

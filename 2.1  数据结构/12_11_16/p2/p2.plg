@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: p2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dell\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/p2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\D—HTC\数据结构\12_11_16\p2\p1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dell\LOCALS~1\Temp\RSP36.tmp" 
+<h3>Output Window</h3>
+Compiling...
+p1.cpp
+E:\D—HTC\数据结构\12_11_16\p2\p1.cpp(34) : error C2065: 'a' : undeclared identifier
+E:\D—HTC\数据结构\12_11_16\p2\p1.cpp(34) : error C2065: 'b' : undeclared identifier
+E:\D—HTC\数据结构\12_11_16\p2\p1.cpp(34) : error C2065: 'c' : undeclared identifier
+E:\D—HTC\数据结构\12_11_16\p2\p1.cpp(34) : error C2106: '=' : left operand must be l-value
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+p1.obj - 4 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

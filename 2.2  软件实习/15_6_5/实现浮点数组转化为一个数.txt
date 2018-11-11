@@ -1,0 +1,29 @@
+scanf("%s",s);
+		while(s!='\0')                                      //判断输入的多项式，并分别把指数与系数赋值
+		{  
+		   if(s[i]==x)
+			   q->coef=1;
+		   else
+		   {  
+			  int i=0;
+			  float coef; 
+		      while(s!='x') 
+			  {
+				  if(s[i]>='0'&&s[i]<='9')
+				  {				 
+				      i++; 
+				  }
+				  else     
+					  break;  
+			  }
+			  for(i;i<0;i--)
+			  {
+			      
+			  
+			  }
+			  
+		   
+		   }
+
+		
+		}

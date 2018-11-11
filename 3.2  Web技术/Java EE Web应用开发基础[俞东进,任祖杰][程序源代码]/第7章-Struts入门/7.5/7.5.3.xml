@@ -1,0 +1,3 @@
+<action name="user" class="edu.hdu.javaee.struts.UserAction">
+<result name="success">/Methods/list.jsp</result>
+</action>

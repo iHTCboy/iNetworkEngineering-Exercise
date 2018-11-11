@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gbk" ?> 
+<songlist>
+<song catagory="classic">
+  		<title>海阔天空</title> 
+  		<author>Beyond</author>  
+  	</song>
+<song catagory="youth">
+ 		 <title>青花瓷</title> 
+  		<author>周杰伦</author>  
+  	</song>
+ 	<song catagory="rock">
+  		<title>改变自己</title> 
+  		<author>王力宏</author>  
+  	</song>
+  	<song catagory="youth">
+ 	 	<title>麦芽糖</title> 
+  		<author>周杰伦</author>  
+  	</song>
+</songlist>

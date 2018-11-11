@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: p1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dell\LOCALS~1\Temp\RSP20.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/p1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\D—HTC\数据结构\13_11_23\p1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dell\LOCALS~1\Temp\RSP20.tmp" 
+<h3>Output Window</h3>
+Compiling...
+p1.cpp
+E:\D—HTC\数据结构\13_11_23\p1.cpp(31) : error C2065: 'Next' : undeclared identifier
+E:\D—HTC\数据结构\13_11_23\p1.cpp(31) : error C2440: '=' : cannot convert from 'struct Node *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+E:\D—HTC\数据结构\13_11_23\p1.cpp(42) : error C2146: syntax error : missing ';' before identifier 'empty'
+E:\D—HTC\数据结构\13_11_23\p1.cpp(42) : error C2501: 'Bool' : missing storage-class or type specifiers
+E:\D—HTC\数据结构\13_11_23\p1.cpp(51) : error C2039: 'Empty' : is not a member of 'Stack'
+        E:\D—HTC\数据结构\13_11_23\p1.cpp(36) : see declaration of 'Stack'
+E:\D—HTC\数据结构\13_11_23\p1.cpp(53) : error C2065: 'top_node' : undeclared identifier
+E:\D—HTC\数据结构\13_11_23\p1.cpp(82) : error C2511: 'top' : overloaded member function 'int (void)' not found in 'Stack'
+        E:\D—HTC\数据结构\13_11_23\p1.cpp(36) : see declaration of 'Stack'
+E:\D—HTC\数据结构\13_11_23\p1.cpp(110) : error C2660: 'top' : function does not take 0 parameters
+E:\D—HTC\数据结构\13_11_23\p1.cpp(111) : error C2143: syntax error : missing ';' before '}'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+p1.obj - 9 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="main-default" extends="dang-default" namespace="/main">
+		<action name="recommendAction" class="com.tarena.web.action.main.RecommendAction">
+			<result name="recommend">
+				/WEB-INF/jsp/main/recommend.jsp
+			</result>
+		</action>
+		<action name="categoryAction" class="com.tarena.web.action.main.CategoryAction">
+			<result name="category">
+				/WEB-INF/jsp/main/category.jsp
+			</result>
+		</action>
+		<action name="bookListAction" class="com.tarena.web.action.main.BookListAction">
+			<result name="book_list">
+				/WEB-INF/jsp/main/book_list.jsp
+			</result>
+		</action>
+		<action name="adminBook" class="com.tarena.web.action.main.BookListAction">
+			<result name="book_list">
+				/WEB-INF/jsp/main/adminBook.jsp
+			</result>
+		</action>
+		<action name="toAddBookAtion" class="com.tarena.web.action.main.toAddBookAtion">
+			<result name="toAddBookAtion">
+				/WEB-INF/jsp/main/addBook.jsp
+			</result>
+		</action>
+		<action name="addBookAtion" class="com.tarena.web.action.main.AddBookAtion">
+				<result name="on">
+				/WEB-INF/jsp/main/sorry.jsp
+			</result>
+			<result name="ok">
+				/WEB-INF/jsp/main/success.jsp	
+			</result>
+			</action>
+		<action name="adminMainAtion" class="com.tarena.web.action.main.AdminBookAtion">
+				<result name="adminMain">
+				/WEB-INF/jsp/user/adminMain.jsp
+			</result>
+			<result name="adminBookList">
+				/WEB-INF/jsp/main/adminBookList.jsp	
+			</result>
+			</action>
+		<action name="hotAction" class="com.tarena.web.action.main.HotAction">
+			<result name="hot">
+				/WEB-INF/jsp/main/hot.jsp
+			</result>
+		</action>
+		<action name="searchAction" class="com.tarena.web.action.main.SearchAction">
+			<result name="book_list">
+				/WEB-INF/jsp/main/book_list.jsp
+			</result>
+		</action>
+	</package> 
+</struts>

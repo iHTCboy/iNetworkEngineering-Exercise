@@ -1,0 +1,4 @@
+<action name="user" class="edu.hdu.javaee.struts.UserAction" >
+<result name="success">/user.jsp</result>
+<result name=¡±error¡±>/error.jsp</result>
+</action>

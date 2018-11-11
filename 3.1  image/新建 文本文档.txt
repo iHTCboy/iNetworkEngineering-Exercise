@@ -1,0 +1,10 @@
+J = zeros(128,128);
+
+for  i=1:128
+    for j=1:128
+       if( zeros(n,m)=128 ;)
+        J (n,m)=0;
+    end
+end
+ 
+imshow(J);

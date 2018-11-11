@@ -1,0 +1,6 @@
+Query query=session.createQuery("from User where name=:name"); 
+    query.setParameter("name", "Àî°×");
+    List<User> users=(List<User>)query.list();
+   for(User user:users) {
+           System.out.println(user);
+   }

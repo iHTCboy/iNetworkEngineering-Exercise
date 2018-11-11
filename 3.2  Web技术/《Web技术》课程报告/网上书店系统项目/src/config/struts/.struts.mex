@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="dang-default" location="0,0" size="0,0">
+    <action name="mainAction" location="0,0" size="0,0">
+      <result name="main">
+        <resourceEdge source="main" routing="0" target="main.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="main.jsp" path="/WEB-INF/jsp/main/main.jsp" location="0,0" size="0,0" />
+  <include file="struts-main.xml" location="0,0" size="0,0" />
+  <include file="struts-cart.xml" location="0,0" size="0,0" />
+  <include file="struts-order.xml" location="0,0" size="0,0" />
+  <include file="struts-user.xml" location="0,0" size="0,0" />
+</Struts2Diagram>
+

@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 不能从输入中定义数组大小 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\SONY\AppData\Local\Temp\RSPF241.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/不能从输入中定义数组大小.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\D—HTC\C编程\2011\12\12.12\不能从输入中定义数组大小.cpp"
+]
+Creating command line "cl.exe @C:\Users\SONY\AppData\Local\Temp\RSPF241.tmp" 
+<h3>Output Window</h3>
+Compiling...
+不能从输入中定义数组大小.cpp
+i:\d—htc\c编程\2011\12\12.12\不能从输入中定义数组大小.cpp(6) : error C2057: expected constant expression
+i:\d—htc\c编程\2011\12\12.12\不能从输入中定义数组大小.cpp(6) : error C2466: cannot allocate an array of constant size 0
+i:\d—htc\c编程\2011\12\12.12\不能从输入中定义数组大小.cpp(6) : error C2133: 'm' : unknown size
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+不能从输入中定义数组大小.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Test()
+comment1.params=lowLimit\ highLimit
+comment1.target=int\ generateRndInt(int,\ int)
+comment2.params=value
+comment2.target=void\ recordRnd(int)
+comment3.params=
+comment3.target=void\ sort()
+numComments=4

@@ -1,0 +1,8 @@
+I = imread('G:\D¡ªHTC\image\cameraman.tif');
+subplot(2,1,1)
+imshow(I);
+imhist(I,64);
+subplot(2,1,1)
+imshow(I);
+figure,
+J = histeq(I,hgram);

@@ -1,0 +1,22 @@
+I = imread('G:\D—HTC\image\cameraman.tif');
+subplot(3,3,1)
+imshow(I);
+title('Original Image'); 
+
+J = imnoise(I,'gaussian',0,0.005);
+subplot(3,3,2)
+imshow(J);
+title('高斯噪声'); 
+
+K = imnoise(I,'salt & pepper',0.02);
+subplot(3,3,3)
+imshow(K);
+title('椒盐噪声'); 
+
+H = fspecial('motion',50,45);
+MotionBlur1 = imfilter(J,H);
+subplot(3,3,2);imshow(MotionBlur1);title('均值滤波1');
+
+H = fspecial('motion',50,45);
+MotionBlur2 = imfilter(K,H);
+subplot(2,2,2);imshow(MotionBlur2);title('均值滤波2');

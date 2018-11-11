@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GuessGameGUI()
+comment0.text=\r\n\ Constructor\ \r\n
+comment1.params=
+comment1.target=void\ makeFrame()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="cart-default" extends="dang-default" namespace="/cart">
+		<action name="cartListAction" class="com.tarena.web.action.cart.CartListAction">
+			<interceptor-ref name="loginactionStack" />
+			<result name="cart_list">
+				/WEB-INF/jsp/cart/cart_list.jsp
+			</result>
+		</action>
+		<action name="buyAction" class="com.tarena.web.action.cart.BuyAction">
+			<interceptor-ref name="loginactionStack" />
+			<result name="cartListAction" type="redirectAction">
+				cartListAction
+			</result>
+		</action>
+		<action name="deleteAction" class="com.tarena.web.action.cart.DeleteAction">
+		<interceptor-ref name="loginactionStack" />
+			<result name="cart_list">
+				/WEB-INF/jsp/cart/cart_list.jsp
+			</result>
+		</action>
+		<action name="updateAction" class="com.tarena.web.action.cart.UpdateAction">
+		<interceptor-ref name="loginactionStack" />
+			<result name="cart_list">
+				/WEB-INF/jsp/cart/cart_list.jsp
+			</result>
+		</action>
+		<action name="returnAction" class="com.tarena.web.action.cart.ReturnAction">
+		<interceptor-ref name="loginactionStack" />
+			<result name="cart_list">
+				/WEB-INF/jsp/cart/cart_list.jsp
+			</result>
+		</action>
+	</package>
+</struts>

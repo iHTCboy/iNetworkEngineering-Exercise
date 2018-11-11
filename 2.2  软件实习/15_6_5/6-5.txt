@@ -1,0 +1,253 @@
+#include<iostream.h>
+#include<malloc.h>
+#include<stdio.h>
+#include<stdlib.h>
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+typedef struct Node
+{
+	float coef;//系数
+	int index;
+	struct Node *next;
+}LinkList;
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+void  Insert(LinkList *p,LinkList *h)//把节点p插入到链表h中
+{
+   LinkList *q1,*q2;
+   
+   int flag=0;
+       q1=h;
+	   if(p->coef==0)
+		   free(p);
+	   else
+	   {
+		
+	   if(q1->next==NULL)
+	   {
+		   q1->next=p;
+	   }
+	   else
+	   {
+		   q2=q1->next;
+		   while(flag==0)
+		   {
+    		   if(p->index<q2->index)
+			   {
+				   if(q2->next==NULL)
+				   {
+					   q2->next=p;
+					   flag=1;
+				   }
+				   else
+				   {
+					   q1=q2;
+					   q2=q2->next;
+					   
+				   }
+			   }
+			   else	 if(p->index>q2->index)
+				   {
+                       p->next=q2;
+					   q1->next=p;
+                       
+					   flag=1;
+				   }
+			   else
+				   {
+					   q2->coef=p->coef+q2->coef;
+					   if(q2->coef==0)
+					   {
+						   q1->next=q2->next;
+						   free(q2);
+					   }
+					   flag=1;
+					   free(p);
+				   }
+		   }
+		   }
+				   
+	   }
+}
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LinkList  *Creat_L(LinkList *head,int m)//创建一个链表，项数为m
+{
+    int i;
+	LinkList *q;
+	
+	head=(LinkList *)malloc(sizeof(LinkList));
+	head->next=NULL;
+	for(i=1;i<=m;i++)
+	{
+    q=(LinkList *)malloc(sizeof(LinkList));
+    q->next=NULL;
+	printf("●请输入第%d项的系数和指数：",i);
+	scanf("%fx^%d",&q->coef,&q->index);
+	Insert(q,head);
+	}
+	return head;
+}
+
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+void Printf(LinkList *L)
+{
+    LinkList *p,*q;//,*pa;
+	int i=0;
+	p=L->next;
+	q=L->next;
+	if(p==NULL)
+	{
+		printf("0\n");
+		return;
+	}
+
+	while(q)
+	{
+		
+		printf("%gx^",q->coef);
+		printf("%d",q->index);
+        q=q->next;
+		if(q!=NULL)
+		{
+		    printf("＋");
+		}
+	}
+	   	while(p)
+	{
+		p=p->next;
+		
+		i++;
+	}
+	printf("【总共有%d项】",i);
+}
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LinkList *ADDlist(LinkList *head,LinkList *pb)
+{
+	LinkList *pc;
+	int flag=0;
+	while(flag==0)
+	{
+		if(pb->next==NULL)
+			flag=1;
+		else
+		{
+			pb=pb->next;
+			pc=(LinkList *)malloc(sizeof(LinkList));
+			pc->coef=pb->coef;
+			pc->index=pb->index;
+			pc->next=NULL;
+			Insert(pc,head);
+
+		}
+	}
+           return head; 
+}
+
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LinkList *MinusList(LinkList *head,LinkList *pb)
+{
+	LinkList *pc;
+	int flag=0;
+	while(flag==0)
+	{
+		if(pb->next==NULL)
+			flag=1;
+		else
+		{
+			pb=pb->next;
+			pc=(LinkList *)malloc(sizeof(LinkList));
+			pc->coef=-pb->coef;
+			pc->index=pb->index;
+			pc->next=NULL;
+			Insert(pc,head);
+		}
+	}
+             return head;
+}
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+void main()
+{
+   int i,m,n;
+   LinkList *pa=0,*pb=0,*pc;
+   while(1)
+   {
+	   system("cls");
+   printf("┣━━━━━━━━【欢迎使用一元稀疏多项式计算器】━━━━━━━┫\n");
+   printf("\n");
+   printf("   【请输入】多项式a的项数：");
+   scanf("%d",&m);
+   printf("\n");
+   pa=Creat_L(pa,m);
+   printf("\n");
+   printf("   【请输入】多项式b的项数：");
+   scanf("%d",&n); 
+   printf("\n");
+    pb=Creat_L(pb,n);
+
+printf("\n");
+printf("┣━━━━━━━━【欢迎使用一元稀疏多项式计算器】━━━━━━━┫\n");
+printf("        ⑴〖退出系统〗                        \n");
+printf("        ⑵〖输出多项式a〗                     \n");
+printf("        ⑶〖输出多项式b〗                     \n");
+printf("        ⑷〖输出多项式a+b〗                   \n");
+printf("        ⑸〖输出多项式a-b〗                   \n");  
+ 
+while(1)
+{
+	printf("\n             【请选择】操作：");
+	scanf("%d",&i);
+	printf("\n");
+	switch(i)
+	{
+	case 1:
+		return;
+	case 2:
+		{
+			printf("             【输出】多项式a的整数序列为：");			
+		    Printf(pa);
+			printf("\n");
+		    break;
+		}
+	case 3 :
+		{
+			printf("             【输出】多项式b的整数序列为：");
+			Printf(pb);
+			printf("\n");
+			break;
+		}
+	case 4:
+		{
+            pc=ADDlist(pa,pb);
+			printf("             【输出】多项式a+b的整数序列为：");
+			Printf(pc);
+			printf("\n");
+			break;
+			
+		}
+	case 5:
+		{
+			pc=MinusList(pa,pb);
+			printf("             【输出】多项式a-b的整数序列为：");
+			Printf(pc);
+			printf("\n");
+			break;
+		}
+	
+	default:
+		printf("\n               【输入有误】，请重新输入：\n");
+	}
+}
+   }
+}
+

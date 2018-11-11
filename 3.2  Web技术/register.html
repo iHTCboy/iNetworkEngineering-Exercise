@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>HTC用户注册</title>
+    <style type="text/css">
+    h1{color:red}
+    .pos{position:absolute;left:340px;top:50px;line-height:30px; }
+    </style>
+    <script type="text/javascript">
+	function loadXMLDoc() {
+		
+		var xmlhttp,x,i,name,age,password,repassword;
+		
+	
+		if (window.XMLHttpRequest) {
+		// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+		}
+		else {
+		// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function() {
+			name=document.getElementById("un").value;
+			age=document.getElementById("ag").value;
+			password=document.getElementById("pa").value;
+			repassword=document.getElementById("rpa").value;
+			if (xmlhttp.readyState==4 && xmlhttp.status==200) {	
+				xmlDoc=xmlhttp.responseXML;				
+				x=xmlDoc.getElementsByTagName("user");	
+				if(name==""){
+					alert("用户名为空，请从新输入 ！");
+					return false;
+				}
+				for(i=0;i<x.length;i++){
+					if(name==x[i].childNodes[0].nodeValue){
+						alert("该用户名已存在，请从新起一个用户名！");
+						return false;
+					}
+				}
+				
+				if(password!=repassword){
+					alert("两次输入的密码不一致，请从新输入 ！");
+					return false;
+				}
+				if(age<=0){
+					alert("年龄输入有误，请从新输入 ！");
+					return false;
+				}
+				var re=/^[0-9]+?[0-9]*$/;
+				if(!re.test(age)){
+					alert("年龄输入有误，请从新输入 ！");
+					return false;
+				}
+				
+						
+				alert("注册成功！");
+				}
+		}
+		xmlhttp.open("GET","user.xml",true);
+		xmlhttp.send();
+	}
+	
+	function reset(){
+		document.getElementById("re").innerHTML="";
+	}
+	</script>
+  </head>
+  <body bgcolor="black">
+  <form>
+   <div class="pos" id="re">
+      <h1> 欢迎注册使用 <br></><font size=3 color=#FFFF37 >我们承诺为您提供最优质的服务！</font></h1>
+      <font color=#00EC00>用户昵称：</font> <input type="text" name="username" size="20" id="un" style="color: #F00078"  onfocus="this.select()" placeholder='请输入你的名字' ><br>   
+      <font color=#00EC00>初始密码：</font> <input type="password" name="password" size="20" id="pa" style="color: #F00078"  onfocus="this.select()" placeholder='请输入你的密码'><br>
+ 
+      <font color=#00EC00>再次输入：</font> <input type="password" name="repassword" size="20" id="rpa" style="color: #F00078"  onfocus="this.select()" placeholder='再次输入你的密码'><br>
+       <font color=#00EC00>年&nbsp&nbsp&nbsp龄：</font>  <input type="text" name="age" id="ag" style="color: #F00078"  onfocus="this.select()" placeholder='请输入你的年龄' ><br>         
+       <font color=#00EC00>性&nbsp&nbsp&nbsp别&nbsp:</font>  <select name="xingbie" size="1" style="color: #F00078">
+       			<option value="0" selected="selected">保密</option>
+			<option value="1">男</option><option value="2">女</option>
+			</select><br>
+      <font color=#00EC00>联系方式：</font>  <input type="text" name="address" size="40" style="color: #F00078"  onfocus="this.select()" placeholder='请输入你的联系方式'><br>    
+       <font color=#00EC00>个人简介：</font><br><textarea name="interest" rows="4" cols="40" style="color: #F00078"  onfocus="this.select()" placeholder='请填写你的个人简介'></textarea><br>
+  <button type="button" onclick="loadXMLDoc()" style="color:  #0000E3 "><B><font size=3>提交</font></B></button>
+  <button type="button" onclick="reset()" style="color: #FF0000"  ><B><font size=4>重置</font></B></button>
+  </div>
+</form>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<package name="methods" namespace="/" extends="struts-default">
+<!-- method属性未设置，调用ItemsAction类中的execute方法 -->
+<action name="list" class="edu.hdu.javaee.struts.ItemsAction">
+<result name="success">/Methods/list.jsp</result>
+</action>
+<!-- 对应着ItemsAction类中的add方法 -->
+<action name="add" class="edu.hdu.javaee.struts.ItemsAction" method="add">
+<result name="success">/Methods/add.jsp</result>
+</action>
+<!-- 对应着ItemsAction类中的edit方法 -->
+<action name="edit" class="edu.hdu.javaee.struts.ItemsAction" method="edit">
+<result name="success">/Methods/edit.jsp</result>
+</action>
+</package>

@@ -1,0 +1,329 @@
+Class documentation
+<---- javadoc command: ---->
+D:\Java\jdk1.6.0_13\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.6
+-classpath
+D:\BlueJ\lib\bluejcore.jar;D:\BlueJ\lib\junit-4.8.2.jar;D:\Java\jdk1.6.0_13\lib\jxl.jar;D:\Java\jdk1.6.0_13\lib\javax.mail.jar;C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP
+-d
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+D:\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java
+<---- end of javadoc command ---->
+正在装入源文件 C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java...
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+      ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:27: 编码 UTF-8 的不可映射字符
+   //????????
+            ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:29: 编码 UTF-8 的不可映射字符
+   JToolBar bar =new JToolBar();//??????
+                                  ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:29: 编码 UTF-8 的不可映射字符
+   JToolBar bar =new JToolBar();//??????
+                                   ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:29: 编码 UTF-8 的不可映射字符
+   JToolBar bar =new JToolBar();//??????
+                                    ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:29: 编码 UTF-8 的不可映射字符
+   JToolBar bar =new JToolBar();//??????
+                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:29: 编码 UTF-8 的不可映射字符
+   JToolBar bar =new JToolBar();//??????
+                                      ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:29: 编码 UTF-8 的不可映射字符
+   JToolBar bar =new JToolBar();//??????
+                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:32: 编码 UTF-8 的不可映射字符
+   JTextField jurl=new JTextField(60);//?????
+                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:32: 编码 UTF-8 的不可映射字符
+   JTextField jurl=new JTextField(60);//?????
+                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:32: 编码 UTF-8 的不可映射字符
+   JTextField jurl=new JTextField(60);//?????
+                                           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:32: 编码 UTF-8 的不可映射字符
+   JTextField jurl=new JTextField(60);//?????
+                                            ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:34: 编码 UTF-8 的不可映射字符
+   JEditorPane2 jEditorPane1=new JEditorPane2();//?????
+                                                  ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:34: 编码 UTF-8 的不可映射字符
+   JEditorPane2 jEditorPane1=new JEditorPane2();//?????
+                                                   ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:34: 编码 UTF-8 的不可映射字符
+   JEditorPane2 jEditorPane1=new JEditorPane2();//?????
+                                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:34: 编码 UTF-8 的不可映射字符
+   JEditorPane2 jEditorPane1=new JEditorPane2();//?????
+                                                      ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:35: 编码 UTF-8 的不可映射字符
+   JScrollPane scrollPane=new JScrollPane(jEditorPane1);//??????
+                                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:35: 编码 UTF-8 的不可映射字符
+   JScrollPane scrollPane=new JScrollPane(jEditorPane1);//??????
+                                                           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:35: 编码 UTF-8 的不可映射字符
+   JScrollPane scrollPane=new JScrollPane(jEditorPane1);//??????
+                                                            ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:35: 编码 UTF-8 的不可映射字符
+   JScrollPane scrollPane=new JScrollPane(jEditorPane1);//??????
+                                                             ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:35: 编码 UTF-8 的不可映射字符
+   JScrollPane scrollPane=new JScrollPane(jEditorPane1);//??????
+                                                              ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:35: 编码 UTF-8 的不可映射字符
+   JScrollPane scrollPane=new JScrollPane(jEditorPane1);//??????
+                                                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:37: 编码 UTF-8 的不可映射字符
+   JFileChooser chooser1=new JFileChooser();//??????
+                                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:37: 编码 UTF-8 的不可映射字符
+   JFileChooser chooser1=new JFileChooser();//??????
+                                                ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:37: 编码 UTF-8 的不可映射字符
+   JFileChooser chooser1=new JFileChooser();//??????
+                                                 ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:37: 编码 UTF-8 的不可映射字符
+   JFileChooser chooser1=new JFileChooser();//??????
+                                                   ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                  ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                   ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                      ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                            ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                             ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                 ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                  ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                   ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                    ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                      ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:39: 编码 UTF-8 的不可映射字符
+   JWindow window=new JWindow(WebBrowser.this);//???????????????????????
+                                                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:41: 编码 UTF-8 的不可映射字符
+   JButton button2=new JButton("??????");
+                                ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:41: 编码 UTF-8 的不可映射字符
+   JButton button2=new JButton("??????");
+                                 ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:41: 编码 UTF-8 的不可映射字符
+   JButton button2=new JButton("??????");
+                                  ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:41: 编码 UTF-8 的不可映射字符
+   JButton button2=new JButton("??????");
+                                    ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:42: 编码 UTF-8 的不可映射字符
+   Toolkit toolkit=Toolkit.getDefaultToolkit();//??????????
+                                                 ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:42: 编码 UTF-8 的不可映射字符
+   Toolkit toolkit=Toolkit.getDefaultToolkit();//??????????
+                                                  ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:42: 编码 UTF-8 的不可映射字符
+   Toolkit toolkit=Toolkit.getDefaultToolkit();//??????????
+                                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:42: 编码 UTF-8 的不可映射字符
+   Toolkit toolkit=Toolkit.getDefaultToolkit();//??????????
+                                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:42: 编码 UTF-8 的不可映射字符
+   Toolkit toolkit=Toolkit.getDefaultToolkit();//??????????
+                                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:42: 编码 UTF-8 的不可映射字符
+   Toolkit toolkit=Toolkit.getDefaultToolkit();//??????????
+                                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                             ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                              ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:44: 编码 UTF-8 的不可映射字符
+   JMenuBar jMenuBar1=new JMenuBar();//?????????
+                                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                             ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                            ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                              ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:46: 编码 UTF-8 的不可映射字符
+   JMenu fileMenu=new JMenu("???(F)");//?????????
+                                                ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:47: 编码 UTF-8 的不可映射字符
+   JMenuItem saveAsItem=new JMenuItem("????(S)");
+                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:47: 编码 UTF-8 的不可映射字符
+   JMenuItem saveAsItem=new JMenuItem("????(S)");
+                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:47: 编码 UTF-8 的不可映射字符
+   JMenuItem saveAsItem=new JMenuItem("????(S)");
+                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:48: 编码 UTF-8 的不可映射字符
+   JMenuItem exitItem=new JMenuItem("???(E)");
+                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:48: 编码 UTF-8 的不可映射字符
+   JMenuItem exitItem=new JMenuItem("???(E)");
+                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                             ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                           ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                             ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                              ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:51: 编码 UTF-8 的不可映射字符
+   JMenu editMenu=new JMenu("??(E)");//?????????
+                                               ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:52: 编码 UTF-8 的不可映射字符
+   JMenuItem backItem=new JMenuItem("????(Z)");
+                                     ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:52: 编码 UTF-8 的不可映射字符
+   JMenuItem backItem=new JMenuItem("????(Z)");
+                                      ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:52: 编码 UTF-8 的不可映射字符
+   JMenuItem backItem=new JMenuItem("????(Z)");
+                                       ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:52: 编码 UTF-8 的不可映射字符
+   JMenuItem backItem=new JMenuItem("????(Z)");
+                                        ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:53: 编码 UTF-8 的不可映射字符
+   JMenuItem forwardItem=new JMenuItem("???(P)");
+                                         ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:53: 编码 UTF-8 的不可映射字符
+   JMenuItem forwardItem=new JMenuItem("???(P)");
+                                          ^
+C:\Documents and Settings\Administrator\桌面\Java网络编程技术\课件（叶恒舟）\程序\URL&HTTP\WebBrowser.java:55: 编码 UTF-8 的不可映射字符
+   JMenu viewMenu=new JMenu("???(V)");//?????????
+                             ^
+100 错误

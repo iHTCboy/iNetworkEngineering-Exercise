@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<!-- 配置struts2 -->
+<struts>
+	<!-- 配置包，名称为firstStruts -->
+<package name="firstStruts" extends='struts-default'>
+	<!-- 配置Action -->
+<action name="HelloWorld" class="edu.hdu.javaee.struts.HelloWorld">
+	<!-- 配置返回结果 -->
+	<result name="success">/success.jsp</result>
+	<result name="error">/error.jsp</result>
+</action>
+</package>
+</struts>

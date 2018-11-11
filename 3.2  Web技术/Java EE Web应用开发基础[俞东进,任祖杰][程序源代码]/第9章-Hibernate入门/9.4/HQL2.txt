@@ -1,0 +1,4 @@
+Query query=session.createQuery("from User order by name"); 
+query.setMaxResults(5);
+List<User> users=(List<User>)query.list();
+System.out.println("返回的User实例数为"+users.size());

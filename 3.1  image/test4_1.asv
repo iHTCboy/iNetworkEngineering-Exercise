@@ -1,0 +1,22 @@
+I = imread('G:\D—HTC\image\cameraman.tif');
+subplot(2,2,1)
+imshow(I);
+title('Original Image'); 
+
+J = imhist(I,64)
+subplot(2,2,2)
+imshow(J);
+title('直方图'); 
+
+K = histeq(I,10);
+subplot(2,2,3)
+imshow(K);
+title('直方图均衡化'); 
+
+J = imhist(I,64)
+subplot(2,2,2)
+imshow(J);
+title('直方图'); 
+
+
+

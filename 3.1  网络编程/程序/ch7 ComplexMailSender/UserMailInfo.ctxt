@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=account\ subject\ content
+comment0.target=UserMailInfo(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getSubject()
+comment2.params=
+comment2.target=java.lang.String\ getAccount()
+comment3.params=
+comment3.target=java.lang.String\ getContent()
+numComments=4

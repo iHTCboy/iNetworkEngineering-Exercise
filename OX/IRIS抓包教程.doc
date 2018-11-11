@@ -1,0 +1,144 @@
+Iris网络抓包工具(中文版)
+
+
+
+1.【Iris简介】 
+
+一款性能不错的嗅探器。嗅探器的英文是Sniff，它就是一个装在电脑上的***，监视通过电脑的数据。 
+
+2.【Iris的安装位置】 
+
+作为一个嗅探器，它只能捕捉通过所在机器的数据包，因此如果要使它能捕捉尽可能多的信息，安装前应该对所处网络的结构有所了解。例如，在环形拓扑结构的网络中，安装在其中任一台机都可以捕捉到其它机器的信息包（当然不是全部），而对于使用交换机连接的交换网络，很有可能就无法捕捉到其它两台机器间通讯的数据，而只能捕捉到与本机有关的信息；又例如，如果想检测一个防火墙的过滤效果，可以在防火墙的内外安装Iris，捕捉信息，进行比较。 
+
+3.【配置Iris】 
+
+Capture（捕获） 
+
+Run continuously ：当存储数据缓冲区不够时，Iris将覆盖原来的数据包。 
+
+Stop capture after filling buffer：当存储数据缓冲区满了时，Iris将停止进行数据包截获，并停止纪录。 
+
+Load this filter at startup：捕获功能启动时导入过滤文件并应用，这样可以进行命令行方式的调试。 
+
+Scroll packets list to ensure last packet visible：一般要选中，就是将新捕获的数据包附在以前捕获结果的后面并向前滚动。 
+
+Use Address Book：使用Address Book来保存mac地址，并记住mac地址和网络主机名。而Ip也会被用netbios名字显示。 
+
+Decode(解码) 
+
+Use DNS:使用域名解析 
+
+Edit DNS file:使用这个选项可以编辑本地解析文件(host)。 
+
+HTTP proxy:使用http使用代理服务器，编辑端口号。默认为80端口 
+
+Decode UDP Datagrams:解码UDP协议 
+
+Scroll sessions list to ensure last session visible:使新截获的数据包显示在捕获窗口的最上。 
+
+Use Address Book：同Capture中的Use Address Book 
+
+Adapters（网络配置器） 
+
+选择从哪个网络配置器（网卡）中截获数据。 
+
+Guard（警报和日志选项） 
+
+Enable alarm sound：当发现合乎规则的数据包发出提示声音 
+
+Play this wave file：选择警报声音路径，声音格式是.wav 
+
+Log to file：启动日志文件。如果选中后，当符合规则的数据包被截获后将被记录在日志文件中。 
+
+Ignore all LAN connections：Iris可以通过本地的ip地址和子网掩码识别地址是否是本地的地址。当这个选项被不选中后，Iris会接受所有的数据包（包括本机收发出的）。如果选中，将不接受本地网络的数据包。 
+
+Ignore connections on these>>:过滤指定端口(port)，在列表中可以选择。 
+
+Use software filter:软件过滤方案生效。当没有被选中后，软件将会接受所有的数据。另外只有当Apply filter to incoming packets 被选中后Use software filter才能使用。 
+
+Miscellaneous（杂项功能） 
+
+选项 功能描述 
+
+Packet buffer：设置用来保存捕获数据包最多个数（默认值是2000个） 
+
+Stop when free disk space drops ：当磁盘空间低于指定值时,Iris将会停止捕获和记录数据。 
+
+Enable CPU overload protection 当Cpu的占用率连续4秒钟达到100%时，Iris会停止运行。等到恢复正常后才开始纪录。 
+
+Start automatically with Windows：点击这里可以把Iris加入到启动组中。 
+
+Check update when program start：是否启动时检查本软件的更新情况。 
+
+4【任务】 
+
+Schedule:配置Iris指定的时间捕获数据包，蓝色代表捕获，白色代表停止捕获。 
+
+5.【建立过滤条件】 
+
+a.硬件过滤器(HardWare Filter)： 
+
+Promiscuous (噪音模式):使得网卡处于杂收状态，这个是默认状态。 
+
+Directed (直接连接):只接受发给本网络配置器的数据包，而其他的则不予接受。 
+
+Multicast (多目标):捕获多点传送的数据包 
+
+All multicast （所有多目标）:捕获所有的多目标数据包 
+
+Broadcast (广播) 只捕获广播桢，这样的真都具有相同的特点，目的MAC地址都是FF:FF:FF:FF:FF:FF 
+
+b.数据包捕获类型匹配(Layer 2，3): 
+
+这个过滤设置位于DoD模型（四层）中的第二、三层——网络层和运输层。 
+
+利用这个过滤设置，可以过滤不同协议类型的数据。 
+
+include:表示包括此种协议类型的数据将被捕获； 
+
+exclude:表示包括此种协议类型的数据将被忽略； 
+
+也可以自定义协议类型，方法是配置proto.dat文件。Layer 2的协议编辑[PROTOCOL]，而layer 3则编辑相应的[IP PROTOCOL]。我们用记事本打开proto.dat，在这里很多的协议可以被修改和添加。　 
+
+c.字符匹配(Words Filter) 
+
+加入你想过滤的关键字符到列表。列表下面有All和ANY两个选项（有的是AND和OR)，其中ANY是指数据包至少要匹配列表中的一个关键字符，而ALL选项是指所有列表中的数据都要匹配才会显示出来。 
+
+Apply filter to packets是指显示带有关键字的数据帧，而其他的数据帧则会被抛弃。 
+
+Mark sessions containing words是指所有的数据帧都会被截获，只不过带有指定字符的数据帧会加上标志。 
+
+d.MAC地址匹配（MAC Address Filter） 
+
+第一个窗口是IRIS可是识别出来的硬件地址。你可以点击这些地址把他们加到下边的Address 1或Address 2，如果你不这样做也可以自己输入地址到窗口二中; 
+
+e.IP地址匹配层（IP address） 
+
+和MAC地址匹配（MAC Address Filter）选项相类似，这个是IP地址匹配层。 
+
+f.端口匹配层（Ports） 
+
+CP和UDP采用16 bit的端口号来识别应用程序的。FTP服务器的TCP端口号是2 1，Telnet服务器的TCP端口号是23，TFTP(简单文件传送协议)服务器的UDP端口号是69。任何TCP/IP实现所提供的服务都用知名的1～1023之间的端口号.例如我们想截获telnet中的用户名和密码这里我们就应该选择23 Port。 
+
+g.高级选项配置(Advanced) 
+
+数据大小匹配选项（Size）：可以选择指定接收的数据包的大小。 
+
+十六进制数据匹配（Data）：指定数据包中所包含数据的十六进制字符相匹配。 
+
+6【截获数据包】 
+
+在数据包编辑区内，显示着完整的数据包。窗口分两部分组成，左边的数据是以十六进制数字显示，右边则对应着ASCII。点击十六进制码的任何部分，右边都会显示出相应的ASCII代码，便于分析。 
+
+十六进制码是允许进行编辑再生的，可以重写已经存在的的数据包。新的数据包可以被发送，或者保存到磁盘中。 
+
+　 
+
+7.【数据包编辑】 
+
+Capture > Show Packet Editor点击显示出来 
+
+利用工具条的选项可以进行数据包的保存，更改，加入到列表和发送等操作。 
+
+例如想生成一系列TCP数据包，首先点击生成一个空数据包，参照数据包格式，使得每一部分都用十六进制表示法来表示。建立了一个包假设它由100个字节的长度（假设一下，20 个字节是IP信息，20个字节是TCP信息，还有60个字节为传送的数据）。现在把这个包发给以太网,放14个字节在目地MAC地址之前，源MAC地址，还要置一个0x0800的标记，它指示出了TCP/IP栈后的数据结构。同时，也附加了4个字节用于做CRC校验 （CRC校验用来检查传输数据的正确性），之后我们点击发送按钮。
+

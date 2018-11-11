@@ -1,0 +1,3 @@
+<action name="index">  
+    <result>welcome.jsp</result>  
+</action> 

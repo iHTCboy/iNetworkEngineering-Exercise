@@ -1,0 +1,9 @@
+String prefix =”张三”;
+		Session session=HibernateUtil.getSession();
+		Query query=session.createQuery("from User where name=?"); 
+		query.setParameter(0, prefix);
+		List<User> users=(List<User>)query.list();
+		System.out.println("返回的User实例数为"+users.size());
+		for(User user:users) {
+			System.out.println(user);
+		}

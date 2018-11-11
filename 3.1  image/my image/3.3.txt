@@ -1,0 +1,15 @@
+m = zeros(128,128);
+for i = 38:1:90
+    for j = 58:1:70
+        m(i,j) = 255;
+    end
+end
+subplot(2,2,1);imshow(m);
+f1 = fft2(m);
+f11 = fftshift(f1);
+subplot(2,2,2);imshow(log(abs(f11)+1),[0 10]);
+im = imrotate(m,60,'bilinear','crop');
+subplot(2,2,3);imshow(im);
+f2 = fft2(im);
+f22 = fftshift(f2);
+subplot(2,2,4);imshow(log(abs(f22)+1),[0 10]);

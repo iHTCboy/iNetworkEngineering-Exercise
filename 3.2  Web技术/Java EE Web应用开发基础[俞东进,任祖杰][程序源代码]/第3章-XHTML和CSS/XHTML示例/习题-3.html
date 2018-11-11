@@ -1,0 +1,79 @@
+<html>
+<head><title>习题</title></head>
+<body>
+<form action="http://www.example.org" method="get">
+<p><h1>欢迎光临弗雷德网上购物中心</h1></p>
+  <div>
+    <label>
+      会员姓名:  <input type="text" name="username" size="15" />
+    </label>
+	<p>
+	<label>
+      会员卡号:  <input type="text" name="username" size="15" />
+    </label>
+    <label>
+      会员类型:
+	   <select size = 1 name = "会员类型" id = "会员类型">
+	   <option selected=”selected” >请选择会员类型</option>
+       <option value=”1”> 钻石vip</option>
+       <option value=”2”> 黄金vip </option>
+       <option value=”3”> 普通vip </option>
+       <option value=”4”> 普通会员 </option>
+       </select>
+	</p>
+    </label>
+	<label>
+      联系方式:  <input type="text" name="联系方式" size="15" />
+    </label>
+	<label>
+      送货地址:  <input type="text" name="联系方式" size="30" />
+    </label>
+    <br />
+	<p>
+	<table border = "border" width = 40%>
+	 <caption> 选择您喜欢的商品 </caption>
+     <tr>
+       <th> 商品名称 </th>
+       <th> 单价 </th>
+       <th> 数量 </th>
+     </tr>
+     <tr>
+       <td> 脑白金 </td>
+       <td> ￥100.00 </td>
+       <td> <input type="text" name="username" size="8" /></td>
+     </tr>
+     <tr>
+       <td> 富硒康 </td>
+       <td> ￥150.00 </td>
+       <td> <input type="text" name="username" size="8" /> </td>
+     </tr>
+	 <tr>
+       <td> 葡萄酒 </td>
+       <td> ￥70.00 </td>
+       <td> <input type="text" name="username" size="8" /> </td>
+     </tr>
+	 <tr>
+       <td> 美国山核桃 </td>
+       <td> ￥50.00/500g </td>
+       <td> <input type="text" name="username" size="8" /> </td>
+     </tr>
+	</table>
+	</p>
+	<br />
+    付款方式：
+    <label>
+      <input type="radio" name="paid" value="card" checked = "checked" >网银
+    </label>
+    <label>
+      <input type="radio" name="paid" value="zf" >支付宝
+    </label>
+    <label>
+      <input type="radio" name="paid" value="cash" >货到付款
+    </label>
+    <br /><br />
+    <input type="submit" name="order" value="提交订单" />
+	<input type="reset" name="clear" value="清空订单" />
+  </div>
+</form>
+</body>
+</html>

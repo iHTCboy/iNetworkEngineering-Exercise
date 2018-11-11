@@ -1,0 +1,33 @@
+I = imread('lenna.bmp');
+subplot(4,2,1);
+imshow(I);
+title('RGB Image'); 
+
+J = rgb2gray(I);
+J = im2double(J); 
+subplot(4,2,2);
+imshow(J);
+title('Gray Image');
+
+K = dct2(J);
+subplot(4,2,3);
+imshow(K);
+title('DCT2 Image');
+
+L = idct2(K);
+subplot(4,2,4);
+imshow(L);
+title('IDCT2 Image');
+
+
+subplot(4,2,5);
+title('原图像大小：')
+whos('I');
+
+subplot(4,2,6);
+title('压缩图像大小：')
+whos('J');
+
+subplot(4,2,7);
+title('图像的压缩比：')
+disp(m*n/length(J))

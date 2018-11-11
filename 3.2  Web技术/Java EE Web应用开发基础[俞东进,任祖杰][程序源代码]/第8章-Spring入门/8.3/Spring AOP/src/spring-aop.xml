@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+	<!--基本配置文件部分-->
+	<bean id="proxybean" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces">
+			<value>edu.hdu.spring.aop.DinningInterface</value>
+		</property>
+		<property name="target">
+			<ref local="targetbean" />
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>beforeadvisor</value>
+				<value>afteradvisor</value>
+			</list>
+		</property>
+	</bean>
+	<!--Bean类配置部分-->
+	<bean id="targetbean" class="edu.hdu.spring.aop.DinningInterfaceImpl"></bean>
+	<!-- Advisor配置部分-->
+	<bean id="beforeadvisor"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="beforeadvice" />
+		</property>
+		<property name="pattern">
+			<value>edu.hdu.spring.aop.DinningInterface.eat</value>
+		</property>
+	</bean>
+	<bean id="afteradvisor"
+		class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="afteradvice" />
+		</property>
+		<property name="pattern">
+			<value>edu.hdu.spring.aop.DinningInterface.eat</value>
+		</property>
+	</bean>
+	<!-- Advice配置部分-->
+	<bean id="beforeadvice" class="edu.hdu.spring.aop.Before"></bean>
+	<bean id="afteradvice" class="edu.hdu.spring.aop.After"></bean>
+</beans>

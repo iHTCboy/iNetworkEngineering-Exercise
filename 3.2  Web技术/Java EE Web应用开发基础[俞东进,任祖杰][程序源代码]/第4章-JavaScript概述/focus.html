@@ -1,0 +1,47 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head> 
+<title> nochange.html </title>
+<!-- Script for the event handlers -->
+<script type = "text/javascript">
+function bookCost(){
+	var jobs=document.getElementById("Jobs").value;
+	var youth=document.getElementById("Youth").value;
+	document.getElementById("cost").value=jobs*68+youth*29;
+}
+</script>
+</head>
+<body>
+    <form action = "">
+      <h3> 书目订单</h3>
+      <table border = "border">
+        <tr>
+          <th> 书名</th>
+          <th> 作者</th>
+          <th> 价格</th>
+          <th> 数量</th>
+        </tr>
+        <tr>
+          <th>史蒂夫•乔布斯传</th>
+          <th>沃尔特•艾萨克森</th>
+          <td>68元</td>
+          <td> <input type = "text" id = "Jobs" size ="2" /> </td>
+        </tr>
+        <tr>
+          <th> 青春</th>
+          <th>韩寒</th>
+          <td> 29元 </td>
+          <td> <input type = "text" id = "Youth" size = "2" /> </td>
+        </tr> 
+      </table>
+      <p>
+        <input type = "button" value = "总计" onclick = "bookCost();" />
+        <input type = "text" size = "5" id = "cost" onfocus = "this.blur();" />
+      </p>
+      <p>
+        <input type = "submit" value = "提交订单" /> 
+        <input type = "reset" value = "取消订单" />
+      </p>
+    </form>
+  </body>
+</html> 
